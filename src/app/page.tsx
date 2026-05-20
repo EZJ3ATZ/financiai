@@ -91,10 +91,10 @@ export default function LandingPage() {
             <span>FinançaIA</span>
           </div>
           <div className="flex-1" />
-          <Link href="/dashboard">
+          <Link href="/login">
             <Button variant="ghost" size="sm">Entrar</Button>
           </Link>
-          <Link href="/dashboard">
+          <Link href="/login">
             <Button size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90">
               Começar grátis
             </Button>
@@ -119,13 +119,13 @@ export default function LandingPage() {
             O assistente financeiro que fala a sua língua. IR, investimentos, FIRE e Open Finance — tudo em um só lugar, com inteligência artificial do seu lado.
           </p>
           <div className="flex items-center justify-center gap-4 flex-wrap">
-            <Link href="/dashboard">
+            <Link href="/login">
               <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 gap-2 h-12 px-8 text-base">
                 Começar grátis
                 <ArrowRight className="w-4 h-4" />
               </Button>
             </Link>
-            <Link href="/dashboard">
+            <Link href="/login">
               <Button size="lg" variant="outline" className="h-12 px-8 text-base border-border">
                 Ver demonstração
               </Button>
@@ -211,7 +211,7 @@ export default function LandingPage() {
                     </li>
                   ))}
                 </ul>
-                <Link href="/dashboard">
+                <Link href="/login">
                   <Button
                     className={`w-full ${plan.highlight ? "bg-primary text-primary-foreground hover:bg-primary/90" : ""}`}
                     variant={plan.highlight ? "default" : "outline"}
@@ -234,7 +234,7 @@ export default function LandingPage() {
           <p className="text-muted-foreground text-lg mb-8">
             Comece grátis hoje. Sem cartão de crédito.
           </p>
-          <Link href="/dashboard">
+          <Link href="/login">
             <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 h-12 px-10 text-base gap-2">
               Começar agora
               <ArrowRight className="w-4 h-4" />
